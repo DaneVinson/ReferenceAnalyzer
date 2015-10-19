@@ -48,7 +48,7 @@ namespace WinFormClient
                     var versionNode = new TreeNode($"{version.Key.ToString()} (Project count: {version.Value.Count})");
                     foreach (var r in version.Value)
                     {
-                        versionNode.Nodes.Add($"{r.Project}");
+                        versionNode.Nodes.Add($"{r.Project} ({r})");
                     }
                     nameNode.Nodes.Add(versionNode);
                 }

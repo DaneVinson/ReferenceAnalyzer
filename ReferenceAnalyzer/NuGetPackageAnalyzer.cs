@@ -47,7 +47,7 @@ namespace ReferenceAnalyzer
                                                     .ToList());
                         }
                 });
-            return references;
+            return references.OrderBy(r => r.Name).ToList();
         }
 
         /// <summary>
