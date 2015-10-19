@@ -1,20 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--This is the base .nuspec file for the ReferenceAnalyzer NuGet package. It is intended to generate the .nupkg file directly from
-    its location at the root of the solution. 
-    
-    To create a new version of the package
-    1. Update the version of the ReferenceAnalzyer assembly
-    2. Update the version listed in this file to match
-    3. Save this file
-    4. Compile ReferenceAnalyzer with Release configuration
-    5. Generate the nupkg file (with nuget.exe or the Nuget Package Explorer)-->
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>ReferenceAnalyzer</id>
-        <version>0.5.1</version>
+        <version>0.5.2</version>
         <title>ReferenceAnalyzer</title>
         <authors>Dane Vinson</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>https://github.com/DaneVinson/ReferenceAnalyzer/blob/master/LICENSE.txt</licenseUrl>
         <description>Class library to help provide clarity for NuGet and Assembly reference spaghetti in .NET projects.</description>
         <summary />
         <dependencies />
